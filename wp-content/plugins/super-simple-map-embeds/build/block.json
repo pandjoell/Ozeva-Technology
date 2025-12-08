@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "super-simple-map-embeds/map",
+  "version": "1.1.0",
+  "title": "Super Simple Map",
+  "category": "embed",
+  "icon": "location",
+  "description": "The easiest way to embed Google Maps - just enter an address and you're done!",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "address": {
+      "type": "string",
+      "default": ""
+    },
+    "zoom": {
+      "type": "number",
+      "default": 14
+    },
+    "height": {
+      "type": "number",
+      "default": 400
+    }
+  },
+  "textdomain": "super-simple-map-embeds",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
