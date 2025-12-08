@@ -1,0 +1,78 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Posts Listing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 17:10+0530\n"
+"PO-Revision-Date: 2023-01-21 17:58+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: Flipper Code <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: advanced-posts-listing.php:366 advanced-posts-listing.php:591
+#: advanced-posts-listing.php:817 advanced-posts-listing.php:1237
+msgid "Prev"
+msgstr ""
+
+#: advanced-posts-listing.php:367 advanced-posts-listing.php:592
+#: advanced-posts-listing.php:818 advanced-posts-listing.php:1238
+msgid "Next"
+msgstr ""
+
+#: advanced-posts-listing.php:1415
+msgid "Featured Image"
+msgstr ""
+
+#: advanced-posts-listing.php:1446
+msgid "Author Name"
+msgstr ""
+
+#: advanced-posts-listing.php:1480
+msgid "Assigned Categories"
+msgstr ""
+
+#: src/edit.js:305 src/edit.js:315
+msgid "Advanced Posts Listing"
+msgstr ""
+
+#: src/edit.js:309
+msgid "Loading..."
+msgstr ""
+
+#: src/edit.js:317
+msgid "No posts were found."
+msgstr ""
+
+#: src/edit.js:450
+msgid "Select Layout"
+msgstr ""
+
+#: src/edit.js:453
+msgid "Choose A Layout"
+msgstr ""
+
+#: src/edit.js:471
+msgid "Layout Settings"
+msgstr ""
+
+#: src/edit.js:479
+msgid "No. Of Columns"
+msgstr ""
+
+#: src/edit.js:487
+msgid "Set the number of columns to displayed in a row."
+msgstr ""
+
+#: src/edit.js:496
+msgid "Column Gap"
+msgstr ""

@@ -1,0 +1,224 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "advanced-posts-listing/advanced-posts-listing-block",
+  "version": "1.0.5",
+  "title": "Advanced Posts Listing",
+  "category": "widgets",
+  "description": "Enables site admins to display blog post list and custom post type list.",
+  "example": {},
+  "keywords": [
+    "post list",
+    "posts listing",
+    "posts",
+    "blog post",
+    "blog listing"
+  ],
+  "attributes": {
+    "selectedCustomPostType": {
+      "type": "string",
+      "default": "Posts"
+    },
+    "showContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentType": {
+      "type": "string",
+      "default": "Excerpt"
+    },
+    "showMeta": {
+      "type": "boolean",
+      "default": true
+    },
+    "showPostTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showImgToggler": {
+      "type": "boolean",
+      "default": true
+    },
+    "selectedImageTogggler": {
+      "type": "boolean"
+    },
+    "widthPercentageState": {
+      "type": "boolean"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": "large"
+    },
+    "customPostsOptions": {
+      "type": "array"
+    },
+    "showRange": {
+      "type": "string"
+    },
+    "numPostsToShow": {
+      "type": "number",
+      "default": 10
+    },
+    "valueForWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "widthPercentage": {
+      "type": "string",
+      "default": "100%"
+    },
+    "widthController": {
+      "type": "boolean",
+      "default": false
+    },
+    "height": {
+      "type": "string"
+    },
+    "ImgWidth": {
+      "type": "string"
+    },
+    "sortBy": {
+      "type": "string",
+      "default": "new-to-old"
+    },
+    "wordsLimit": {
+      "type": "number",
+      "default": 30
+    },
+    "customTaxonomyPosts": {
+      "type": "object",
+      "properties": {
+        "[taxonomyType]": {
+          "type": "array"
+        }
+      }
+    },
+    "showReadMoreToggler": {
+      "type": "boolean"
+    },
+    "ReadMoreText": {
+      "type": "string",
+      "default": "Read More"
+    },
+    "ReadMoreTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "ReadMoreBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "updatedCptIds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ids": {
+            "type": "integer"
+          },
+          "taxonomyType": {
+            "type": "string"
+          }
+        }
+      },
+      "default": []
+    },
+    "totalColoms": {
+      "type": "number",
+      "default": 3
+    },
+    "columnGap": {
+      "type": "string",
+      "default": 20
+    },
+    "rowGap": {
+      "type": "string",
+      "default": 30
+    },
+    "JustifyContent": {
+      "type": "string",
+      "default": "start"
+    },
+    "prevName": {
+      "type": "string",
+      "default": "Prev"
+    },
+    "nextName": {
+      "type": "string",
+      "default": "Next"
+    },
+    "PaginationOnToggler": {
+      "type": "boolean",
+      "default": true
+    },
+    "paginationAline": {
+      "type": "string",
+      "default": "center"
+    },
+    "commaSeparatedIds": {
+      "type": "array",
+      "default": []
+    },
+    "RemoveCommaSeparatedIds": {
+      "type": "array",
+      "default": []
+    },
+    "selectedLayout": {
+      "type": "string",
+      "default": "listing-layout"
+    },
+    "button_Top_bottom_Padding": {
+      "type": "string",
+      "default": "10px"
+    },
+    "button_Right_Left_Padding": {
+      "type": "string",
+      "default": "20px"
+    },
+    "title_Manage_styling": {
+      "type": "boolean",
+      "default": false
+    },
+    "title_font_size": {
+      "type": "string"
+    },
+    "Meta_Manage_styling": {
+      "type": "boolean",
+      "default": false
+    },
+    "Meta_font_size": {
+      "type": "string"
+    },
+    "Content_Manage_styling": {
+      "type": "boolean",
+      "default": false
+    },
+    "Content_font_size": {
+      "type": "string"
+    },
+    "Read_more_font_size": {
+      "type": "string"
+    },
+    "customCSS": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "textdomain": "advanced-posts-listing",
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}
